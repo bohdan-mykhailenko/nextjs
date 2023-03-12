@@ -1,8 +1,8 @@
 module.exports = {
   apps: [{
     script: 'npm start',
-
   }],
+
   deploy: {
     production: {
       user: 'root',
@@ -17,3 +17,5 @@ module.exports = {
     }
   }
 };
+
+
