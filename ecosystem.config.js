@@ -11,7 +11,7 @@ module.exports = {
       repo: 'https://github.com/Alfabravo228/nextjs.git',
       path: '/home/root',
       'pre-deploy-local': '',
-      'post-deploy': 'source ~/.nvm/nvm.sh && npm install && npm run build && pm2 reload ecosystem.config.cjs --env production',
+      'post-deploy': 'source ~/.nvm/nvm.sh && npm install && npm run build',
       'pre-setup': '',
       'ssh-options': 'ForwardAgent=yes'
     }
